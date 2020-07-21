@@ -4,15 +4,12 @@ class Dog
   end
 
 
-def name
-  @name
-end 
+  def name
+    @name
+  end 
   
   #Fido = Dog.new
-  #Dog.new = "Fido"
-  #puts fido.name
-  #end
-#end
-#def bark
-#end
+  def bark
+    puts "woof!"
+  end
 end
